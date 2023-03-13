@@ -1,0 +1,103 @@
+h1,h2,h3
+{
+	border-style: none;
+	
+}
+p
+{
+	margin: 10px;
+	color: black;
+	font-size: 30px;
+	font-family: Helvetica;
+}
+body
+{
+		background-image: url('bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding: 10;
+		margin: 0;
+
+}
+/* Navigation */
+		div#nav ul li {
+			
+			float: left;
+			list-style: none;
+}
+
+		div#nav ul li a {
+			padding: 10px 25px;
+			display: block;
+}
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: royalblue;
+}
+a:hover{
+	color: red;
+}
+.flexcontainer{
+
+	display: flex;
+	flex-direction: row;
+
+}
+.box1{
+
+	background-color: antiquewhite;
+	text-align: left;
+	color: darkblue;
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	padding: 5px;
+	flex-grow: 1;
+}
+.box2{
+
+	background-color: lightgrey;
+	text-align: center;
+	color: black;
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	padding: 5px;
+	flex-grow: 2;
+}
+.box3{
+
+	background-color: antiquewhite;
+	text-align: center;
+	color: darkblue;
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	padding: 5px;
+	flex-grow: 1;
+}
+.box4{
+
+	background-color: lightgrey;
+	text-align: center;
+	color: black;
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	padding: 5px;
+	flex-grow: 2;
+}
+.box5{
+
+	background-color: antiquewhite;
+	text-align: center;
+	color: darkblue;
+	width: 100px;
+	height: 80px;
+	margin: 10px;
+	padding: 5px;
+	flex-grow: 2;
+}
+ 
